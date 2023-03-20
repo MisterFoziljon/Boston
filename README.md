@@ -29,36 +29,36 @@ Ma'lumotlar 1970-yilda Boston Standart Metropoliten Statistik Hududidan (SMSA) o
 
 * Loyihani quyidagi link yordamida yuklab oling. (Loyiha uchun yaratilgan fayl adresni o'zingiz ko'rsatishingiz mumkin)
 
-        C:\> git clone https://github.com/MisterFoziljon/Boston-House-Price-Prediction-with-Keras.git
+        C:\> git clone https://github.com/MisterFoziljon/Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish.git
 
 * Loyiha joylashgan faylga kiring.
          
-        C:\> cd Boston-House-Price-Prediction-with-Keras
+        C:\> cd Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish
 
 #### 2. Proyektni ishlatish uchun kerakli modullarni virtual environment yaratib o'rnatib oling.
 * O'zingizdagi pip ni so'nggi versiyasiga yangilang.
 
-        C:\Boston-House-Price-Prediction-with-Keras> python -m pip install --upgrade pip
+        C:\Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish> python -m pip install --upgrade pip
         
 * virtual environment yaratish uchun virtualenv modulini o'rnating.
         
-        C:\Boston-House-Price-Prediction-with-Keras> python -m pip install --user virtualenv
+        C:\Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish> python -m pip install --user virtualenv
 
 * Yangi environment yaratish uchun unga nom bering.
         
-        C:\Boston-House-Price-Prediction-with-Keras> python -m venv sizning_env
+        C:\Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish> python -m venv sizning_env
         
 * Virtual environmentni ishga tushiring(aktivlashtiring).
         
-        C:\Boston-House-Price-Prediction-with-Keras> sizning_env\Scripts\activate.bat
+        C:\Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish> sizning_env\Scripts\activate.bat
         
 * Virtual environment ichiga loyiha ishlashi uchun kerakli bo'lgan modullarni o'rnating (requirements.txt faylining ichida barchasi mavjud).
         
-        (sizning_env) C:\Boston-House-Price-Prediction-with-Keras> pip install -r requirements.txt
+        (sizning_env) C:\Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish> pip install -r requirements.txt
 
 #### 3. Proyektni ishlatish uchun jupyter notebook ni ishga tushiring.
 
-        (sizning_env) C:\Boston-House-Price-Prediction-with-Keras> jupyter notebook
+        (sizning_env) C:\Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish> jupyter notebook
         
   * ```Dataset.ipynb``` ni ishga tushiring. Ushbu notebook yordamida keras saytidagi "Boston Housing price regression dataset" ni yuklab olishingiz va uni keyinchalik foydalanish uchun csv fayl ko'rinishida saqlab qo'yishingiz mumkin. (Ushbu notebook birinchi bo'lib ishga tushiriliadi. ```Ishga tushirish majburiy!!!```)
   
@@ -68,7 +68,7 @@ Ma'lumotlar 1970-yilda Boston Standart Metropoliten Statistik Hududidan (SMSA) o
 
 #### 4. Proyektni streamlit yordamida deploy qilish.
 
-        (sizning_env) C:\Boston-House-Price-Prediction-with-Keras> streamlit run streamlit.py
+        (sizning_env) C:\Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish> streamlit run streamlit.py
 
   * Proyekt ```local server```da ishga tushadi va quyidagicha ko'rinishda bo'ladi:
 
