@@ -74,5 +74,6 @@ Ma'lumotlar 1970-yilda Boston Standart Metropoliten Statistik Hududidan (SMSA) o
         - ![streamlit1](https://github.com/MisterFoziljon/Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish/blob/main/rasmlar/streamlit1.png)
   
   * Qiymatlarni kiritib ```Uy narxini bashorat qilish``` tugmachasi bosilganda yuqoridagi qiymatlardan foydalanib model uyning narxini bashorat qiladi.
-        - ![streamlit2](https://github.com/MisterFoziljon/Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish/blob/main/rasmlar/streamlit2.jpg)
-  * 
+
+
+![streamlit2](https://github.com/MisterFoziljon/Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish/blob/main/rasmlar/streamlit2.jpg)
