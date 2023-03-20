@@ -55,16 +55,23 @@ Ma'lumotlar 1970-yilda Boston Standart Metropoliten Statistik Hududidan (SMSA) o
 * Virtual environment ichiga loyiha ishlashi uchun kerakli bo'lgan modullarni o'rnating (requirements.txt faylining ichida barchasi mavjud).
         
         (sizning_env) C:\Boston-House-Price-Prediction-with-Keras> pip install -r requirements.txt
-  
-#### 3. Yuqoridagi Proyektni ishlatish uchun sizga `Dataset` va `model` nomli yangi fayllar (folder) kerak bo'ladi. Proyekt joylashgan fayl ichida yuqoridagi 2 ta faylni shunchaki yaratib qo'ying.
 
-#### 4. Proyektni ishlatish uchun jupyter notebook ni ishga tushiring.
+#### 3. Proyektni ishlatish uchun jupyter notebook ni ishga tushiring.
 
         (sizning_env) C:\Boston-House-Price-Prediction-with-Keras> jupyter notebook
         
-  * ```Dataset.ipynb``` ni ishga tushiring. Ushbu notebook yordamida keras saytidagi "Boston Housing price regression dataset" ni yuklab olishingiz va uni keyinchalik foydalanish uchun csv fayl ko'rinishida saqlab qo'yishingiz mumkin.
+  * ```Dataset.ipynb``` ni ishga tushiring. Ushbu notebook yordamida keras saytidagi "Boston Housing price regression dataset" ni yuklab olishingiz va uni keyinchalik foydalanish uchun csv fayl ko'rinishida saqlab qo'yishingiz mumkin. (Ushbu notebook birinchi bo'lib ishga tushiriliadi. ```Ishga tushirish majburiy!!!```)
   
-  * ```Modelni train, evaluate qilish va saqlash.ipynb``` ni ishga tushiring. Usbu notebookda (a) punktda hosil qilib olingan csv datasetni o'qib olish, uni train va test datalariga ajratish va ularni standard scaler yordamida normallashtirish ko'rsatilgan. Bundan tashqari, natijaviy train data yordamida model train va evaluate qilingan, natijada model (3) punktda siz yaratgan model fayli ichiga h5 formatda saqlanadi.
+  * ```Modelni train, evaluate qilish va saqlash.ipynb``` ni ishga tushiring. Usbu notebookda hosil qilib olingan csv datasetni o'qib olish, uni train va test datalariga ajratish va ularni standard scaler yordamida normallashtirish ko'rsatilgan. Bundan tashqari, natijaviy train data yordamida model train va evaluate qilingan, natijada model h5 formatda saqlanadi.
   
   * ```Modelni yuklash va testdan o'tkazish.ipynb``` ni ishga tushiring. Ushbu notebook yordamida saqlangan modelni load qilish va yangi test qilish datalari yordamida bashorat qilish (predict) ko'rsatib o'tilgan.
 
+#### 4. Proyektni streamlit yordamida deploy qilish.
+
+        (sizning_env) C:\Boston-House-Price-Prediction-with-Keras> streamlit run streamlit.py
+
+  * Proyekt ```local server```da ishga tushadi va quyidagicha ko'rinishda bo'ladi:
+
+  ![streamlit1](https://github.com/MisterFoziljon/Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish/blob/main/rasmlar/streamlit1.png)
+  
+   ![streamlit2](https://github.com/MisterFoziljon/Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish/blob/main/rasmlar/streamlit2.png)
