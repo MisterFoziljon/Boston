@@ -3,20 +3,20 @@
 Datasetdagi har bir ustun Boston hududi yoki shaharchasini tasvirlaydi.
 Ma'lumotlar 1970-yilda Boston Standart Metropoliten Statistik Hududidan (SMSA) olingan.
 
-* **CRIM** - shaharlar bo'yicha aholi jon boshiga to'g'ri keladigan jinoyatlar darajasi
+* **CRIM** - shaharlar bo'yicha aholi jon boshiga to'g'ri keladigan jinoyat darajasi
 * **ZN**: 25 000 kv.ft dan ortiq uchastkalar uchun ajratilgan turar-joy yerlarining ulushi.
-* **INDUS**: har bir shahar uchun chakana bo'lmagan biznes akrlarining ulushi
-* **CHAS**: Charlz daryosining qo'g'irchoq o'zgaruvchisi (agar trakt daryo bilan chegaradosh bo'lsa = 1; aks holda 0)
-* **NOX**: azot oksidi kontsentratsiyasi (10 millionga qism)
-* **RM**: bitta turar-joy uchun o'rtacha xonalar soni
-* **YOSH**: 1940 yilgacha qurilgan egalari egallagan birliklarning nisbati
-* **DIS**: Bostondagi beshta bandlik markazlarigacha bo'lgan masofalar
+* **INDUS**: har bir shahar uchun chakana bo'lmagan biznes maydonlarining ulushi
+* **CHAS**: Charlz daryosidan uzoq yaqinligi (agar Daryoga yaqin hududda bo'lsa = 1; aks holda 0)
+* **NOX**: azot oksidi kontsentratsiyasi
+* **RM**: turar-joy uchun o'rtacha xonalar soni
+* **YOSH**: 1940-yilgacha qurib foydalanishga topshirilgan obyektlarning nisbati
+* **DIS**: Bostondagi 5 ta bandlik markazlarigacha bo'lgan vaznli masofalar
 * **RAD**: radial magistrallarga kirish imkoniyati indeksi
-* **SOLIQ**: 10 000 dollar uchun to'liq qiymatli mulk solig'i stavkasi
+* **SOLIQ**: har 10000$ uchun to'liq qiymatli mulk solig'i stavkasi
 * **PTRATIO**: shahar bo'yicha o'quvchi-o'qituvchi nisbati
-* **B**: (1000(Bk−0,63)2) bu yerda Bk qora tanlilarning nisbati
+* **B**: qora tanlilarning shahardagi ulushi
 * **LSTAT**: aholining % pastroq holati
-* **MEDV**: Egasi egallagan uylarning o'rtacha qiymati 1000 dollar
+* **MEDV**: Sotib olingan uylarning o'rtacha qiymati 10 000$
 (yuqoridagi ma'lumotlar google translate yordamida tarjima qilingan)
 
 
@@ -24,6 +24,7 @@ Ma'lumotlar 1970-yilda Boston Standart Metropoliten Statistik Hududidan (SMSA) o
 
 #### 1. Loyihani yuklab olish uchun quyidagi ketma-ketlikni bajaring:
 * `windows+R` klavishlarini bosing va paydo bo'lgan oynaga `cmd` buyrug'ini yozing OK tugmachasini bosing.
+https://github.com/MisterFoziljon/Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish/blob/main/rasmlar/cmd.png?raw=true
 
 * Loyihani quyidagi link yordamida yuklab oling. (Loyiha uchun yaratilgan fayl adresni o'zingiz ko'rsatishingiz mumkin)
 
