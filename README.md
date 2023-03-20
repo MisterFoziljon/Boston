@@ -25,7 +25,7 @@ Ma'lumotlar 1970-yilda Boston Standart Metropoliten Statistik Hududidan (SMSA) o
 #### 1. Loyihani yuklab olish uchun quyidagi ketma-ketlikni bajaring:
 * `windows+R` klavishlarini bosing va paydo bo'lgan oynaga `cmd` buyrug'ini yozing OK tugmachasini bosing.
 
-https://github.com/MisterFoziljon/Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish/blob/main/rasmlar/cmd.png
+![cmd](https://github.com/MisterFoziljon/Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish/blob/main/rasmlar/cmd.png)
 
 * Loyihani quyidagi link yordamida yuklab oling. (Loyiha uchun yaratilgan fayl adresni o'zingiz ko'rsatishingiz mumkin)
 
