@@ -71,7 +71,9 @@ Ma'lumotlar 1970-yilda Boston Standart Metropoliten Statistik Hududidan (SMSA) o
         (sizning_env) C:\Boston-House-Price-Prediction-with-Keras> streamlit run streamlit.py
 
   * Proyekt ```local server```da ishga tushadi va quyidagicha ko'rinishda bo'ladi:
-        - ![streamlit1](https://github.com/MisterFoziljon/Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish/blob/main/rasmlar/streamlit1.png)
+
+
+![streamlit1](https://github.com/MisterFoziljon/Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish/blob/main/rasmlar/streamlit1.png)
   
   * Qiymatlarni kiritib ```Uy narxini bashorat qilish``` tugmachasi bosilganda yuqoridagi qiymatlardan foydalanib model uyning narxini bashorat qiladi.
 
