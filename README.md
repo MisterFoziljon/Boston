@@ -25,40 +25,40 @@ Ma'lumotlar 1970-yilda Boston Standart Metropoliten Statistik Hududidan (SMSA) o
 #### 1. Loyihani yuklab olish uchun quyidagi ketma-ketlikni bajaring:
 * `windows+R` klavishlarini bosing va paydo bo'lgan oynaga `cmd` buyrug'ini yozing OK tugmachasini bosing.
 
-![cmd](https://github.com/MisterFoziljon/Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish/blob/main/rasmlar/cmd.png)
+![cmd](https://github.com/MisterFoziljon/Boston/blob/main/rasmlar/cmd.png)
 
 * Loyihani quyidagi link yordamida yuklab oling. (Loyiha uchun yaratilgan fayl adresni o'zingiz ko'rsatishingiz mumkin)
 
-        C:\> git clone https://github.com/MisterFoziljon/Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish.git
+        C:\> git clone https://github.com/MisterFoziljon/Boston.git
 
 * Loyiha joylashgan faylga kiring.
          
-        C:\> cd Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish
+        C:\> cd Boston
 
 #### 2. Proyektni ishlatish uchun kerakli modullarni virtual environment yaratib o'rnatib oling.
 * O'zingizdagi pip ni so'nggi versiyasiga yangilang.
 
-        C:\Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish> python -m pip install --upgrade pip
+        C:\Boston> python -m pip install --upgrade pip
         
 * virtual environment yaratish uchun virtualenv modulini o'rnating.
         
-        C:\Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish> python -m pip install --user virtualenv
+        C:\Boston> python -m pip install --user virtualenv
 
 * Yangi environment yaratish uchun unga nom bering.
         
-        C:\Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish> python -m venv sizning_env
+        C:\Boston> python -m venv sizning_env
         
 * Virtual environmentni ishga tushiring(aktivlashtiring).
         
-        C:\Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish> sizning_env\Scripts\activate.bat
+        C:\Boston> sizning_env\Scripts\activate.bat
         
 * Virtual environment ichiga loyiha ishlashi uchun kerakli bo'lgan modullarni o'rnating (requirements.txt faylining ichida barchasi mavjud).
         
-        (sizning_env) C:\Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish> pip install -r requirements.txt
+        (sizning_env) C:\Boston> pip install -r requirements.txt
 
 #### 3. Proyektni ishlatish uchun jupyter notebook ni ishga tushiring.
 
-        (sizning_env) C:\Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish> jupyter notebook
+        (sizning_env) C:\Boston> jupyter notebook
         
   * ```Dataset.ipynb``` ni ishga tushiring. Ushbu notebook yordamida keras saytidagi "Boston Housing price regression dataset" ni yuklab olishingiz va uni keyinchalik foydalanish uchun csv fayl ko'rinishida saqlab qo'yishingiz mumkin. (Ushbu notebook birinchi bo'lib ishga tushiriliadi. ```Ishga tushirish majburiy!!!```)
   
@@ -68,14 +68,14 @@ Ma'lumotlar 1970-yilda Boston Standart Metropoliten Statistik Hududidan (SMSA) o
 
 #### 4. Proyektni streamlit yordamida deploy qilish.
 
-        (sizning_env) C:\Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish> streamlit run streamlit.py
+        (sizning_env) C:\Boston> streamlit run streamlit.py
 
   * Proyekt ```local server```da ishga tushadi va quyidagicha ko'rinishda bo'ladi:
 
 
-![streamlit1](https://github.com/MisterFoziljon/Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish/blob/main/rasmlar/streamlit1.png)
+![streamlit1](https://github.com/MisterFoziljon/Boston/blob/main/rasmlar/streamlit1.png)
   
   * Qiymatlarni kiritib ```Uy narxini bashorat qilish``` tugmachasi bosilganda yuqoridagi qiymatlardan foydalanib model uyning narxini bashorat qiladi.
 
 
-![streamlit2](https://github.com/MisterFoziljon/Keras-yordamida-Boston-shaharchasidagi-uy-joy-narxlarini-bashorat-qilish-modelini-ishlab-chiqish/blob/main/rasmlar/streamlit2.jpg)
+![streamlit2](https://github.com/MisterFoziljon/Boston/blob/main/rasmlar/streamlit2.jpg)
